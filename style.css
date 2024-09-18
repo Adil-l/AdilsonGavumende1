@@ -213,12 +213,12 @@ header{
 }
 
 .about-me {
-    font-size: 1.20rem;
+    font-size: 1.5rem;
     border: 2px solid #000;
-    padding: 5px 20px;
+    padding: 1px 20px;
     border-radius: 22px;
     display: inline-block;
-    margin-top: 95px;
+    margin-top: 50px;
 }
 
 .download-cv {
@@ -228,11 +228,15 @@ header{
 
 .personal-info{
     background-color: #e0e0e0;
-    padding: 3rem;
-    font-size: 1.3rem;
+    padding: 2rem;
     border-radius: 15px;
+    line-height: 0.7;
+    font-size: 1.3rem;
 }
 
+.p2{
+    font-size: 100rem;
+}
 .grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -247,7 +251,7 @@ header{
     padding: 2rem;
     padding-bottom: 3rem;
     border-radius: 12px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -256,8 +260,9 @@ header{
 }
 
 .personal-info h3, .interests h3 {
-    font-size: 1.8rem;
-    margin-bottom: 0.5rem;
+    font-size: 2.1rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
 }
 
 .interest-icons {
@@ -268,8 +273,8 @@ header{
 }
 
 .icon {
-    width: 120px; 
-    height: 120x; 
+    width: 150px; 
+    height: 150px; 
     background-color: #3700ff;
     border-radius: 13px;
     display: flex;
@@ -278,8 +283,8 @@ header{
 }
 
 .icon img {
-    width: 120px; 
-    height: 120px;
+    width: 140px; 
+    height: 140px;
     object-fit: contain;  
 }
 
@@ -293,8 +298,8 @@ header{
     background-color: #000;
     color: #fff;
     border: none;
-    padding: 30px 30px;
-    font-size: 1.6rem;
+    padding: 20px 210px;
+    font-size: 1.4rem;
     text-align: center;
     border-radius: 12px;
     cursor: pointer;
